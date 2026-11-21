@@ -18,7 +18,7 @@ from scipy.ndimage import distance_transform_edt
 
 
 ROOT = Path(__file__).resolve().parents[2]
-PROJECT = ROOT / "路径规划虚拟仿真闭环AI科学家系统"
+PROJECT = ROOT / "CDC-16捣固单元智能避障规划与虚拟仿真AI科学家系统"
 DATA_DIR = ROOT / "evidence" / "validated_experiments"
 FIG_DIR = ROOT / "assets" / "reports" / "figures"
 sys.path.insert(0, str(PROJECT))
